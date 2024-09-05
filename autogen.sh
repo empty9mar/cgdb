@@ -14,7 +14,7 @@ if [ -z "$CGDB_VERSION" ]; then
   CGDB_VERSION=`git rev-parse --short HEAD`
 fi
 
-echo $CGDB_VERSION > VERSION
+echo $CGDB_VERSION-gjb > VERSION
 
 # Stop on error
 set -e
